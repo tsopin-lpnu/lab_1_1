@@ -7,8 +7,8 @@ public class lab_2_1 {
 		int n = 0;
 		int min, max;
 		
-		while((n = Stuff.readInt("Введіть довжину масива: ")) < 1) {
-			System.out.println("Довжина масива повинна бути більше 0.");
+		while((n = Stuff.readInt("Р’РІРµРґС–С‚СЊ РґРѕРІР¶РёРЅСѓ РјР°СЃРёРІР°: ")) < 1) {
+			System.out.println("Р”РѕРІР¶РёРЅР° РјР°СЃРёРІР° РїРѕРІРёРЅРЅР° Р±СѓС‚Рё Р±С–Р»СЊС€Рµ 0.");
 		}
 		
 		int [] array = new int[n];
@@ -18,13 +18,13 @@ public class lab_2_1 {
 		max = Stuff.max(array);
 		
 		System.out.println("");
-		System.out.println("Результат:");
+		System.out.println("Р РµР·СѓР»СЊС‚Р°С‚:");
 
 		Stuff.printArray(array);
 
-		System.out.println("Максимальне значення масиву = " + max);
-		System.out.println("Мінімальне значення масиву = " + min);
-		System.out.println("Сума максимального і мінімального елементів масиву = " + (min + max));
+		System.out.println("РњР°РєСЃРёРјР°Р»СЊРЅРµ Р·РЅР°С‡РµРЅРЅСЏ РјР°СЃРёРІСѓ = " + max);
+		System.out.println("РњС–РЅС–РјР°Р»СЊРЅРµ Р·РЅР°С‡РµРЅРЅСЏ РјР°СЃРёРІСѓ = " + min);
+		System.out.println("РЎСѓРјР° РјР°РєСЃРёРјР°Р»СЊРЅРѕРіРѕ С– РјС–РЅС–РјР°Р»СЊРЅРѕРіРѕ РµР»РµРјРµРЅС‚С–РІ РјР°СЃРёРІСѓ = " + (min + max));
 
 	}
 

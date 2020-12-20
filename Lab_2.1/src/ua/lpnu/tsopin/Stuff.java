@@ -53,7 +53,7 @@ public class Stuff {
 
 		while(!scan.hasNextInt()) {
 			scan.next();
-			System.out.println("Введено некоректне значення. Спробуйте ще раз.");
+			System.out.println("Р’РІРµРґРµРЅРѕ РЅРµРєРѕСЂРµРєС‚РЅРµ Р·РЅР°С‡РµРЅРЅСЏ. РЎРїСЂРѕР±СѓР№С‚Рµ С‰Рµ СЂР°Р·.");
 			System.out.print(promt);
 		}
 		result = scan.nextInt();	

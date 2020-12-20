@@ -13,10 +13,10 @@ public class lab_1_2 {
 		MyDouble resultFullObject = new MyDouble();
 		MyDouble resultShortObject = new MyDouble();
 		
-		a = Stuff.readDouble("Введіть a: ");
-		b = Stuff.readDouble("Введіть b: ");
-		c = Stuff.readDouble("Введіть c: ");
-		x = Stuff.readDouble("Введіть x: ");
+		a = Stuff.readDouble("Р’РІРµРґС–С‚СЊ a: ");
+		b = Stuff.readDouble("Р’РІРµРґС–С‚СЊ b: ");
+		c = Stuff.readDouble("Р’РІРµРґС–С‚СЊ c: ");
+		x = Stuff.readDouble("Р’РІРµРґС–С‚СЊ x: ");
 		
 		try {
 			resultShortFunction = Stuff.FShortForm(a, b, c, x);
@@ -32,15 +32,15 @@ public class lab_1_2 {
 			System.exit(1);
 		}
 		
-		System.out.println("Результати(скорочена форма розгалуження):");
-		System.out.println("Результат функції:\t\t\t" + resultShortFunction);
-		System.out.println("Параметри-посилання через масив:\t" + resultShortArray[0]);
-		System.out.println("Параметри-посилання через об'єкт:\t" + resultShortObject.value);
+		System.out.println("Р РµР·СѓР»СЊС‚Р°С‚Рё(СЃРєРѕСЂРѕС‡РµРЅР° С„РѕСЂРјР° СЂРѕР·РіР°Р»СѓР¶РµРЅРЅСЏ):");
+		System.out.println("Р РµР·СѓР»СЊС‚Р°С‚ С„СѓРЅРєС†С–С—:\t\t\t" + resultShortFunction);
+		System.out.println("РџР°СЂР°РјРµС‚СЂРё-РїРѕСЃРёР»Р°РЅРЅСЏ С‡РµСЂРµР· РјР°СЃРёРІ:\t" + resultShortArray[0]);
+		System.out.println("РџР°СЂР°РјРµС‚СЂРё-РїРѕСЃРёР»Р°РЅРЅСЏ С‡РµСЂРµР· РѕР±'С”РєС‚:\t" + resultShortObject.value);
 		System.out.println("");
-		System.out.println("Результати(повна форма розгалуження):");
-		System.out.println("Результат функції:\t\t\t" + resultFullFunction);
-		System.out.println("Параметри-посилання через масив:\t" + resultFullArray[0]);
-		System.out.println("Параметри-посилання через об'єкт:\t" + resultFullObject.value);
+		System.out.println("Р РµР·СѓР»СЊС‚Р°С‚Рё(РїРѕРІРЅР° С„РѕСЂРјР° СЂРѕР·РіР°Р»СѓР¶РµРЅРЅСЏ):");
+		System.out.println("Р РµР·СѓР»СЊС‚Р°С‚ С„СѓРЅРєС†С–С—:\t\t\t" + resultFullFunction);
+		System.out.println("РџР°СЂР°РјРµС‚СЂРё-РїРѕСЃРёР»Р°РЅРЅСЏ С‡РµСЂРµР· РјР°СЃРёРІ:\t" + resultFullArray[0]);
+		System.out.println("РџР°СЂР°РјРµС‚СЂРё-РїРѕСЃРёР»Р°РЅРЅСЏ С‡РµСЂРµР· РѕР±'С”РєС‚:\t" + resultFullObject.value);
 	}
 
 }

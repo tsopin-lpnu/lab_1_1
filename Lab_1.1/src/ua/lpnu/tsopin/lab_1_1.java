@@ -15,8 +15,8 @@ public class lab_1_1 {
 		MyDouble objectParam2 = new MyDouble();
 		MyDouble objectParam3 = new MyDouble();
 		
-		s = Stuff.readDouble("Введіть s: ");
-		t = Stuff.readDouble("Введіть t: ");
+		s = Stuff.readDouble("Р’РІРµРґС–С‚СЊ s: ");
+		t = Stuff.readDouble("Р’РІРµРґС–С‚СЊ t: ");
 
 		Stuff.h(s, Math.pow(t, 2), arrayParam1);
 		Stuff.h(t, (1.0 + Math.pow(s, 2)), arrayParam2);
@@ -30,9 +30,9 @@ public class lab_1_1 {
 		resultArrayParametrs = (arrayParam1[0] + Math.pow(arrayParam2[0], 2.0)) / (1.0 + arrayParam3[0]);
 		resultObjectsParametrs = (objectParam1.value + Math.pow(objectParam2.value, 2.0)) / (1.0 + objectParam3.value);
 		
-		System.out.println("Результат(результат функції):\t\t\t" + resultOfTheFuction);
-		System.out.println("Результат(параметри-посилання через масив):\t" + resultArrayParametrs);
-		System.out.println("Результат(параметри-посилання через об'єкт):\t" + resultObjectsParametrs);
+		System.out.println("Р РµР·СѓР»СЊС‚Р°С‚(СЂРµР·СѓР»СЊС‚Р°С‚ С„СѓРЅРєС†С–С—):\t\t\t" + resultOfTheFuction);
+		System.out.println("Р РµР·СѓР»СЊС‚Р°С‚(РїР°СЂР°РјРµС‚СЂРё-РїРѕСЃРёР»Р°РЅРЅСЏ С‡РµСЂРµР· РјР°СЃРёРІ):\t" + resultArrayParametrs);
+		System.out.println("Р РµР·СѓР»СЊС‚Р°С‚(РїР°СЂР°РјРµС‚СЂРё-РїРѕСЃРёР»Р°РЅРЅСЏ С‡РµСЂРµР· РѕР±'С”РєС‚):\t" + resultObjectsParametrs);
 		
 	}
 }

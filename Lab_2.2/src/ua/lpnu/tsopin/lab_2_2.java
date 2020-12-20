@@ -5,24 +5,24 @@ public class lab_2_2 {
 	public static void main(String[] args) {
 		int n = 0, k = 0;
 		
-		while((k = Stuff.readInt("Введіть кількість рядків в матриці: ")) < 1) {
-			System.out.println("кількість рядків повиннo бути більше 0.");
+		while((k = Stuff.readInt("В¬РІРµРґв‰ҐС‚СЊ Рєв‰ҐР»СЊРєв‰ҐСЃС‚СЊ СЂВ¤РґРєв‰ҐРІ РІ РјР°С‚СЂРёС†в‰Ґ: ")) < 1) {
+			System.out.println("Рєв‰ҐР»СЊРєв‰ҐСЃС‚СЊ СЂВ¤РґРєв‰ҐРІ РїРѕРІРёРЅРЅo Р±СѓС‚Рё Р±в‰ҐР»СЊС€Рµ 0.");
 		}
 		
-		while((n = Stuff.readInt("Введіть кількість стопців в матриці: ")) < 1) {
-			System.out.println("кількість стопців повиннo бути більше 0.");
+		while((n = Stuff.readInt("В¬РІРµРґв‰ҐС‚СЊ Рєв‰ҐР»СЊРєв‰ҐСЃС‚СЊ СЃС‚РѕРїС†в‰ҐРІ РІ РјР°С‚СЂРёС†в‰Ґ: ")) < 1) {
+			System.out.println("Рєв‰ҐР»СЊРєв‰ҐСЃС‚СЊ СЃС‚РѕРїС†в‰ҐРІ РїРѕРІРёРЅРЅo Р±СѓС‚Рё Р±в‰ҐР»СЊС€Рµ 0.");
 		}
 		
 		int [][] array = new int[k][n];
 		
 		Stuff.createArray(array);
 		System.out.println();
-		System.out.println("Згенерована матриця:");
+		System.out.println("В«РіРµРЅРµСЂРѕРІР°РЅР° РјР°С‚СЂРёС†В¤:");
 		Stuff.printArray(array);
 		System.out.println();
 		Stuff.doSomething(array);
 		System.out.println();
-		System.out.println("Результат:");
+		System.out.println("вЂ“РµР·СѓР»СЊС‚Р°С‚:");
 		Stuff.printArray(array);
 
 	}

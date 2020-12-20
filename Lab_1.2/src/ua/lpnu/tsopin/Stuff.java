@@ -11,14 +11,14 @@ public class Stuff {
 			result = ((-a) * Math.pow(x, 2.0)) + b;
 		if ((x > 0) && (b == 0)) {
 			if (x == c) {
-				throw new RuntimeException("Помилка. Якщо x > 0 і b = 0, значення x і c повинно відрізнятися.");
+				throw new RuntimeException("РџРѕРјРёР»РєР°. РЇРєС‰Рѕ x > 0 С– b = 0, Р·РЅР°С‡РµРЅРЅСЏ x С– c РїРѕРІРёРЅРЅРѕ РІС–РґСЂС–Р·РЅСЏС‚РёСЃСЏ.");
 			} else {
 				result = (x / (x - c) ) + 5.5;
 			}
 		}
 		if (!((x < 0) && (b != 0)) && !((x > 0) && (b == 0))) {
 			if (c == 0.0) {
-				throw new RuntimeException("Помилка. У \"інших випадках\" -  с не може дорівнювати 0.");
+				throw new RuntimeException("РџРѕРјРёР»РєР°. РЈ \"С–РЅС€РёС… РІРёРїР°РґРєР°С…\" -  СЃ РЅРµ РјРѕР¶Рµ РґРѕСЂС–РІРЅСЋРІР°С‚Рё 0.");
 			} else {
 				result = x / (-c);
 			}
@@ -35,13 +35,13 @@ public class Stuff {
 			result = ((-a) * Math.pow(x, 2.0)) + b;
 		} else if ((x > 0) && (b == 0)) {
 			if (x == c) {
-				throw new RuntimeException("Помилка. Якщо x > 0 і b = 0, значення x і c повинно відрізнятися.");
+				throw new RuntimeException("РџРѕРјРёР»РєР°. РЇРєС‰Рѕ x > 0 С– b = 0, Р·РЅР°С‡РµРЅРЅСЏ x С– c РїРѕРІРёРЅРЅРѕ РІС–РґСЂС–Р·РЅСЏС‚РёСЃСЏ.");
 			} else {
 				result = (x / (x - c) ) + 5.5;
 			}
 		} else {
 			if (c == 0.0) {
-				throw new RuntimeException("Помилка. У \"інших випадках\" -  с не може дорівнювати 0.");
+				throw new RuntimeException("РџРѕРјРёР»РєР°. РЈ \"С–РЅС€РёС… РІРёРїР°РґРєР°С…\" -  СЃ РЅРµ РјРѕР¶Рµ РґРѕСЂС–РІРЅСЋРІР°С‚Рё 0.");
 			} else {
 				result = x / (-c);
 			}
@@ -75,7 +75,7 @@ public class Stuff {
 
 		while(!scan.hasNextDouble()) {
 			scan.next();
-			System.out.println("Введено некоректне значення. Спробуйте ще раз.");
+			System.out.println("Р’РІРµРґРµРЅРѕ РЅРµРєРѕСЂРµРєС‚РЅРµ Р·РЅР°С‡РµРЅРЅСЏ. РЎРїСЂРѕР±СѓР№С‚Рµ С‰Рµ СЂР°Р·.");
 			System.out.print(promt);
 		}
 		result = scan.nextDouble();	

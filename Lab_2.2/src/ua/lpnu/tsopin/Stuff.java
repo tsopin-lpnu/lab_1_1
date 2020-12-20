@@ -83,8 +83,8 @@ public class Stuff {
 			}
 		}
 		
-		System.out.printf("Найбільший з мінімальних елементів по парних стовпцях a[%d][%d] = %d\n", minValue.col, minValue.row, minValue.value);
-		System.out.printf("Найменьший з максимальних елементів по непарних стовпцях a[%d][%d] = %d\n", maxValue.col, maxValue.row, maxValue.value);
+		System.out.printf("РЊР°Р№Р±в‰ҐР»СЊС€РёР№ Р· Рјв‰ҐРЅв‰ҐРјР°Р»СЊРЅРёС… РµР»РµРјРµРЅС‚в‰ҐРІ РїРѕ РїР°СЂРЅРёС… СЃС‚РѕРІРїС†В¤С… a[%d][%d] = %d\n", minValue.col, minValue.row, minValue.value);
+		System.out.printf("РЊР°Р№РјРµРЅСЊС€РёР№ Р· РјР°РєСЃРёРјР°Р»СЊРЅРёС… РµР»РµРјРµРЅС‚в‰ҐРІ РїРѕ РЅРµРїР°СЂРЅРёС… СЃС‚РѕРІРїС†В¤С… a[%d][%d] = %d\n", maxValue.col, maxValue.row, maxValue.value);
 		
 		array[maxValue.col][maxValue.row] = minValue.value;
 		array[minValue.col][minValue.row] = maxValue.value;
@@ -99,7 +99,7 @@ public class Stuff {
 
 		while(!scan.hasNextInt()) {
 			scan.next();
-			System.out.println("Введено некоректне значення. Спробуйте ще раз.");
+			System.out.println("В¬РІРµРґРµРЅРѕ РЅРµРєРѕСЂРµРєС‚РЅРµ Р·РЅР°С‡РµРЅРЅВ¤. вЂ”РїСЂРѕР±СѓР№С‚Рµ С‰Рµ СЂР°Р·.");
 			System.out.print(promt);
 		}
 		result = scan.nextInt();	

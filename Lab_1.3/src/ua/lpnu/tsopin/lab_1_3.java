@@ -17,7 +17,7 @@ public class lab_1_3 {
 		MyDouble resultForIncObject = new MyDouble();
 		MyDouble resultForDecObject = new MyDouble();
 		
-		n = Stuff.readInt("Введіть N: ");
+		n = Stuff.readInt("Р’РІРµРґС–С‚СЊ N: ");
 		
 		resultWhileFunction = Stuff.FWhile(n);
 		resultDoWhileFunction = Stuff.FDoWhile(n);
@@ -34,25 +34,25 @@ public class lab_1_3 {
 		Stuff.FForInc(n, resultForIncObject);
 		Stuff.FForDec(n, resultForDecObject);
 		
-		System.out.println("Результати(while):");
-		System.out.println("Результат функції:\t\t\t" + resultWhileFunction);
-		System.out.println("Параметри-посилання через масив:\t" + resultWhileArray[0]);
-		System.out.println("Параметри-посилання через об'єкт:\t" + resultWhileObject.value);
+		System.out.println("Р РµР·СѓР»СЊС‚Р°С‚Рё(while):");
+		System.out.println("Р РµР·СѓР»СЊС‚Р°С‚ С„СѓРЅРєС†С–С—:\t\t\t" + resultWhileFunction);
+		System.out.println("РџР°СЂР°РјРµС‚СЂРё-РїРѕСЃРёР»Р°РЅРЅСЏ С‡РµСЂРµР· РјР°СЃРёРІ:\t" + resultWhileArray[0]);
+		System.out.println("РџР°СЂР°РјРµС‚СЂРё-РїРѕСЃРёР»Р°РЅРЅСЏ С‡РµСЂРµР· РѕР±'С”РєС‚:\t" + resultWhileObject.value);
 		System.out.println("");
-		System.out.println("Результати(do-while):");
-		System.out.println("Результат функції:\t\t\t" + resultDoWhileFunction);
-		System.out.println("Параметри-посилання через масив:\t" + resultDoWhileArray[0]);
-		System.out.println("Параметри-посилання через об'єкт:\t" + resultDoWhileObject.value);
+		System.out.println("Р РµР·СѓР»СЊС‚Р°С‚Рё(do-while):");
+		System.out.println("Р РµР·СѓР»СЊС‚Р°С‚ С„СѓРЅРєС†С–С—:\t\t\t" + resultDoWhileFunction);
+		System.out.println("РџР°СЂР°РјРµС‚СЂРё-РїРѕСЃРёР»Р°РЅРЅСЏ С‡РµСЂРµР· РјР°СЃРёРІ:\t" + resultDoWhileArray[0]);
+		System.out.println("РџР°СЂР°РјРµС‚СЂРё-РїРѕСЃРёР»Р°РЅРЅСЏ С‡РµСЂРµР· РѕР±'С”РєС‚:\t" + resultDoWhileObject.value);
 		System.out.println("");
-		System.out.println("Результати(for i++):");
-		System.out.println("Результат функції:\t\t\t" + resultForIncFunction);
-		System.out.println("Параметри-посилання через масив:\t" + resultForIncArray[0]);
-		System.out.println("Параметри-посилання через об'єкт:\t" + resultForIncObject.value);
+		System.out.println("Р РµР·СѓР»СЊС‚Р°С‚Рё(for i++):");
+		System.out.println("Р РµР·СѓР»СЊС‚Р°С‚ С„СѓРЅРєС†С–С—:\t\t\t" + resultForIncFunction);
+		System.out.println("РџР°СЂР°РјРµС‚СЂРё-РїРѕСЃРёР»Р°РЅРЅСЏ С‡РµСЂРµР· РјР°СЃРёРІ:\t" + resultForIncArray[0]);
+		System.out.println("РџР°СЂР°РјРµС‚СЂРё-РїРѕСЃРёР»Р°РЅРЅСЏ С‡РµСЂРµР· РѕР±'С”РєС‚:\t" + resultForIncObject.value);
 		System.out.println("");
-		System.out.println("Результати(for i--):");
-		System.out.println("Результат функції:\t\t\t" + resultForDecFunction);
-		System.out.println("Параметри-посилання через масив:\t" + resultForDecArray[0]);
-		System.out.println("Параметри-посилання через об'єкт:\t" + resultForDecObject.value);
+		System.out.println("Р РµР·СѓР»СЊС‚Р°С‚Рё(for i--):");
+		System.out.println("Р РµР·СѓР»СЊС‚Р°С‚ С„СѓРЅРєС†С–С—:\t\t\t" + resultForDecFunction);
+		System.out.println("РџР°СЂР°РјРµС‚СЂРё-РїРѕСЃРёР»Р°РЅРЅСЏ С‡РµСЂРµР· РјР°СЃРёРІ:\t" + resultForDecArray[0]);
+		System.out.println("РџР°СЂР°РјРµС‚СЂРё-РїРѕСЃРёР»Р°РЅРЅСЏ С‡РµСЂРµР· РѕР±'С”РєС‚:\t" + resultForDecObject.value);
 	}
 
 }
